@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cafeteria Menu</h1>
+
+    <form id="order-form">
+        <div class="menu-item">
+            <h2>Burger</h2>
+            <p>$5 each</p>
+            <input type="number" id="burgerQty" name="burgerQty" min="0" max="10" placeholder="Quantity">
+        </div>
+
+        <div class="menu-item">
+            <h2>Pizza</h2>
+            <p>$8 each</p>
+            <input type="number" id="pizzaQty" name="pizzaQty" min="0" max="10" placeholder="Quantity">
+        </div>
+
+        <div class="menu-item">
+            <h2>Salad</h2>
+            <p>$4 each</p>
+            <input type="number" id="saladQty" name="saladQty" min="0" max="10" placeholder="Quantity">
+        </div>
+
+        <button type="submit">Place Order</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
